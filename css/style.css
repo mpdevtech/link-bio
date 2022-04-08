@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Inter', Arial, Helvetica, sans-serif;
+   list-style: none;
+   text-decoration: none;
+   /* color: #FFF9F6; */
+}
+body {
+   background: #151221 !important;
+}
+img {
+   max-width: 100%;
+   display: block;
+}
+.card-img-top {
+   width: 100px !important;
+}
