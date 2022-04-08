@@ -16,6 +16,23 @@ img {
    max-width: 100%;
    display: block;
 }
+.row {
+   height: 100vh;
+}
 .card-img-top {
-   width: 100px !important;
+   width: 80px !important;
+}
+
+.card {
+   border: 2px solid #FF5100 !important;
+   border-radius: 15px !important;
+   background-color: #1c1e2e !important;
+}
+.card:hover {
+   /* background-color: #FF7D40 !important; */
+   box-shadow: 0 0 1.2rem #FF5100;
+   border: 2px solid #ffd0ba !important;
+}
+h1, a:hover {
+   color: #151221 !important;
 }
