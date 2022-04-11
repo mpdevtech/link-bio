@@ -7,32 +7,40 @@
    font-family: 'Inter', Arial, Helvetica, sans-serif;
    list-style: none;
    text-decoration: none;
+   overflow: hidden;
    /* color: #FFF9F6; */
 }
 body {
-   background: #151221 !important;
+   background: rgb(21,18,33);
+   background: radial-gradient(circle, rgba(21,18,33,1) 0%, rgba(0,2,14,1) 100%);
+   background-repeat: no-repeat;
+  
 }
 img {
    max-width: 100%;
    display: block;
 }
-.row {
+/* .row {
    height: 100vh;
-}
+} */
 .card-img-top {
-   width: 80px !important;
+   width: 50px !important;
 }
 
 .card {
    border: 2px solid #FF5100 !important;
-   border-radius: 15px !important;
+   border-radius: 50px !important;
    background-color: #1c1e2e !important;
 }
 .card:hover {
-   /* background-color: #FF7D40 !important; */
-   box-shadow: 0 0 1.2rem #FF5100;
-   border: 2px solid #ffd0ba !important;
+   box-shadow: 0 0 1rem #FF5100;
+   
 }
-h1, a:hover {
-   color: #151221 !important;
+
+
+.logo {
+   width: 200px !important;
+}
+.copy {
+   height: 100vh;
 }
