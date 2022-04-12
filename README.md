@@ -1,7 +1,7 @@
 # Nome do Projeto: link-bio
 O objetivo deste projeto é criar uma página com os meus principais links profissionais e disponibilizá-la na bio do meu Instagram.
 
-# Projeto Finalizado em 11/04/2022
+## Projeto Finalizado em: 11/04/2022
 
 ![iPhone 13 Pro Mockup Right View](https://user-images.githubusercontent.com/87684131/162871414-d7e8cd79-2bb5-4938-8b14-5bac1e74ff59.png) 
 
