@@ -7,14 +7,12 @@
    font-family: 'Inter', Arial, Helvetica, sans-serif;
    list-style: none;
    text-decoration: none;
-   /* color: #FFF9F6; */
 }
 body {
    /* overflow: hidden; */
    background: radial-gradient(circle, #151221 0%, #00020e 100%);
    background-image: url("./img/bg.png");
    background-repeat: no-repeat;
-
 }
 img {
    max-width: 100%;
@@ -26,7 +24,9 @@ img {
 .card-img-top {
    width: 50px !important;
 }
-
+.container {
+   max-width: 800px !important;
+}
 h1 {
    color: #FF7D40;
    font-weight: 800 !important;
@@ -36,7 +36,7 @@ h1, h2 {
 }
 .card {
    border: 2px solid #FF5100 !important;
-   border-radius: 50px !important;
+   border-radius: 15px !important;
    background-color: #1c1e2e !important;
 }
 .card:hover {
@@ -45,3 +45,4 @@ h1, h2 {
 .logo {
    width: 150px !important;
 }
+
