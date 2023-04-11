@@ -7,11 +7,14 @@
    font-family: 'Sora', Arial, Helvetica, sans-serif;
    list-style: none;
    text-decoration: none;
+   overflow: hidden;
+
 }
 body {
    background: rgb(239,235,245);
    background: linear-gradient(45deg, rgba(239,235,245,1) 0%, rgba(245,245,255,1) 100%);
    background-repeat: no-repeat;
+   height: 100vh;
 }
 img {
    max-width: 100%;
@@ -25,6 +28,7 @@ img {
    border-image-slice: 1; */
    border-radius: 50% !important;
 }
+
 .card-img-top {
    width: 50px !important;
 }
@@ -41,20 +45,20 @@ h1, h2 {
 
 .card {
    border: 1px solid #c6c6c6 !important;
-   border-radius: 18px !important;
+   border-radius: 50px !important;
    background-color: #faf5ff !important;
    color: #4F01D5;
 }
 .card:hover {
-   /* border: 1px solid #c6c6c6 !important; */
-   box-shadow: 0px 2px 10px #4F01D580;
    border: 1px solid #c6c6c6 !important;
    background-color: #4F01D5 !important;
    color: #faf5ff;
+   transition: 0.4s;
 }
 .logo {
    width: 150px !important;
 }
+
 
 
 
